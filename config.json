@@ -1,0 +1,84 @@
+{
+  "project": "world-execute-me-universe",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "master": "out/film_master.mp4",
+    "upscale_4k": 2
+  },
+  "song": {
+    "path": "input/song.mp3",
+    "duration": 211.9,
+    "sha256_expected": null
+  },
+  "timing": {
+    "offset": -0.051,
+    "beat_first": 0.1807,
+    "beat_len_prior": 0.465,
+    "bpm_prior": 129
+  },
+  "progression": {
+    "u_anchors": [
+      [0.0, 0.0], [16.04, 0.06], [29.77, 0.12], [44.41, 0.18], [59.06, 0.26],
+      [73.93, 0.34], [88.54, 0.42], [103.52, 0.5], [110.41, 0.56], [118.24, 0.62],
+      [133.95, 0.7], [147.89, 0.78], [162.59, 0.86], [177.44, 0.92], [192.38, 0.98], [207.87, 1.0]
+    ],
+    "h": {
+      "start": 192.38,
+      "peak": 207.873
+    }
+  },
+  "palettes": {
+    "bg": "#101114",
+    "fg": "#E6E8EC",
+    "cyan": "#4FD6E8",
+    "gold": "#E8C76B",
+    "syn_purple": "#9B7BD4",
+    "syn_green": "#5AD17C",
+    "syn_amber": "#E89B4F",
+    "quantum": "#0B1B3A",
+    "alert": "#C4302B",
+    "dead": "#000000",
+    "grey": "#8A8F98"
+  },
+  "section_ground": {
+    "S01": "amber_green", "S02": "grey", "S03": "cyan", "S04": "blue",
+    "S05": "cyan_gold", "S06": "green", "S07": "amber", "S08": "cyan_gold",
+    "S09": "grey", "S10": "grey", "S11": "black_red", "S12": "black_red",
+    "S13": "black_red", "S14": "gold", "S15": "gold_black", "S16": "black"
+  },
+  "fonts": {
+    "mono": "C:/Windows/Fonts/consola.ttf",
+    "mono_bold": "C:/Windows/Fonts/consolab.ttf",
+    "cjk": "C:/Windows/Fonts/msyh.ttc",
+    "serif_italic": "C:/Windows/Fonts/timesi.ttf",
+    "sans": "C:/Windows/Fonts/msyh.ttc"
+  },
+  "safety": {
+    "flash_budget_roundtrips_per_s": 3,
+    "white_flash_total": 8,
+    "glitch_hold_frames": 6,
+    "flash_range": [128.35, 128.87]
+  },
+  "character": {
+    "enabled": true,
+    "assets_dir": "assets/char",
+    "expressions": {
+      "angry": "whale-angry.webp", "cheerful": "whale-cheerful.webp",
+      "confused": "whale-confused.webp", "exasperated": "whale-exasperated.webp",
+      "frightened": "whale-frightened.webp", "serious": "whale-serious.webp",
+      "shy": "whale-shy.webp", "starry": "whale-starry.webp"
+    },
+    "position_per_section": {
+      "S01": "avatar_lower_right", "S02": "core_center", "S03": "points_side_left",
+      "S04": "helix_right", "S05": "bust_upper_left_hand", "S06": "morph_card_upper_right",
+      "S07": "avatar_lower_right", "S08": "epicycle_center", "S09": "core_left",
+      "S10": "avatar_judge_top", "S11": "singularity_center", "S12": "none_flash_16188",
+      "S13": "core_right", "S14": "points_inside_heart", "S15": "avatar_card_right",
+      "S16": "avatar_fade"
+    },
+    "silhouette_seed": 20261011,
+    "allowed_processing": ["crop", "resize", "recolor", "pixelate", "composite"]
+  }
+}

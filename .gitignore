@@ -1,0 +1,9 @@
+input/
+out/
+.venv/
+.wheels/
+__pycache__/
+*.pyc
+data/lyric_timing.json
+data/zh_subtitles.json
+data/audio_features.npy
